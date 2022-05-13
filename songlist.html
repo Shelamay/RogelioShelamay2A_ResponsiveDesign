@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Song Lyrics</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/songlyrics_logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="">SONG LIST</a></li>
+					<li><a href="">FAVORITES</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+<div class="text-box">
+	<h1>Top 1 Song Lyrics </h1>
+	<p>Music brought you a messege that can enlighten your mind and give you peace</p>
+
+</div>		
+<!-----song list---->
+<section class="song-list-1">
+		<h1> Song List </h1>
+		<div class="row">
+			<div class="song-col">
+				<h3>OPM SONGS </h3>
+				<p> PAGSAMO By: Arthur Nery</p>	
+				<p> PARALUMAN By: Adie</p>
+				<p> BUWAN By: Juan Carlos</p>
+				<p> KUNG IKA'Y AKIN By: Chocolate Factory</p>	
+				<p> AKIN KA NALANG By: Morissette Amon</p>
+				<p> SIGURADO By: Oh, Flamingo</p>
+				<p> MAPA By: SB19</p>
+				<p> LAGI By: Skusta Clee</p>
+				<p> MAKE IT WITH YOU By: Ben&Ben </p>
+				<p> Ilalim By: Chocolate Factory</p>
+
+			</div>	
+
+			<div class="song-col">
+				<h3>POP SONGS</h3>
+				<p>LEVITATING By: Dua Lipa</p>
+				<p>ECHANTED By: Taylor Swift</p>
+				<p>SHIVERS By: Edsheeran</p>	
+				<p>LOVE ME LIKE YOU DO By: Little Mix</p>
+				<p>LINE WITHOUT A HOOK By: Ricky Montgomery</p>	
+				<p>INFINITY By:James Young</p>
+				<p>STAY By: Justine Bieber</p>
+				<p>ENEMY By: Imagine Dragon</p>
+				<p>GOOD FOR YOU By: Olivia Rodrigo</p>
+				<p>HEAT WAVES By: Glass Animal</p>
+			</div>
+
+			<div class="song-col">
+				<h3>TOP SONGS </h3>
+				<p>ABCDEFU By: Gayle</p>	
+				<p>GIVE ME YOUR FOREVER By: Zack Tabudlo </p>	
+				<p>YOURE STILL THE ONE By: Shania Twain </p>
+				<p>EASY ON ME By: Adele </p>	
+				<p>SHE WILL BE LOVED By: Maroon 5</p>	
+				<p>MAKE IT TO ME By: Sam Smith </p>
+				<p>BAD HABITS By: Ed Sheeran</p>
+				<p>THATS WHAT I WANT By: Lil Nas X</p>
+				<p>BAM BAM By: Camilla Cabelo</p>
+				<p> INDUSTRY BABY By: Lil Nas X</p>
+		</div>
+
+	</section>
+
+	<!--------footer-------------->
+<section class="footer">
+	<h4>About Us</h4>
+	<p>This website consists of song lyrics that will provide the lyrics you are looking for.
+		<br> Browse the website now, and enjoy singing with correct lyrics </p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+			
+		</div>
+
+</section>
+<!-----------JavaScript fot toggle Menu-------->
+	<script>
+		var navLinks =document.getElementById('navLinks');
+
+		function showMenu(){
+			navLinks.style.right ="0";
+		}
+
+		function hideMenu(){
+			navLinks.style.right ="-200px";
+		}
+
+	</script>
+
+
+
+</body>
+</html>

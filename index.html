@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Song Lyrics</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/songlyrics_logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="songlist.html">SONG LIST</a></li>
+					<li><a href="favorites.html">FAVORITES</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+<div class="text-box">
+	<h1>Top 1 Song Lyrics </h1>
+	<p>Music brought you a messege that can enlighten your mind and give you peace</p>
+	<a href="#" class="jetto">Visit us for more song lyrics</a>
+
+</div>		
+
+	</section>
+<!---------list--->
+	<section class="song-list">
+		<h1> Song List </h1>
+		<div class="row">
+			<div class="song-col">
+				<h3>OPM SONGS </h3>
+				<p> PAGSAMO</p>	
+				<p> PARALUMAN</p>
+				<p> BUWAN</p>
+				<p> KUNG IKA'Y AKIN</p>	
+				<p> AKIN KA NALANG</p>
+			</div>	
+
+			<div class="song-col">
+				<h3>POP SONGS</h3>
+				<p>LEVITATING</p>
+				<p>ECHANTED</p>
+				<p>SHIVERS</p>	
+				<p>LOVE ME LIKE YOU DO</p>
+				<p>LINE WITHOUT A HOOK</p>	
+			</div>
+
+			<div class="song-col">
+				<h3>TOP SONGS </h3>
+				<p>ABCDEFU</p>	
+				<p>GIVE ME YOUR FOREVER</p>	
+				<p>YOURE STILL THE ONE</p>
+				<p>EASY ON ME </p>	
+				<p>SHE WILL BE LOVED</p>	
+		</div>
+
+	</section>
+<!------portrait----->
+  <section class="picture">
+		<h1>SONG LYRICS ALBUMS</h1>
+		<p> DO YOUR VIBE.</p>
+
+		<div class="row">
+			<div class="picture-col">
+				<img src="images/opm-album.jpg">
+				<div class="layer">
+					<h3>OPM SONG</h3>
+				</div>
+			</div>
+
+			<div class="picture-col">
+				<img src="images/pop-album.jpg">
+				<div class="layer">
+					<h3>POP SONG</h3>
+				</div>
+			</div>
+
+			<div class="picture-col">
+				<img src="images/top-album.jpg">
+				<div class="layer">
+					<h3>TOP SONG</h3>
+				</div>
+			</div>
+			
+		</div>
+
+	</section>
+	<!-----About us---->
+	<section class="abouts">
+	<h1>This website consists of song lyrics that will provide the lyrics you are looking for.. <br>Be member of musikero <br> .</h1>
+	<a href="package.html" class="hero">ENJOY BROWSING YOUR FAVORITE SONG</a>
+</section>
+
+
+<!--------footer-------------->
+<section class="footer">
+	<h4>About Us</h4>
+	<p>This website consists of song lyrics that will provide the lyrics you are looking for.
+		<br> Browse the website now, and enjoy singing with correct lyrics </p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+			
+		</div>
+
+</section>
+<!-----------JavaScript fot toggle Menu-------->
+	<script>
+		var navLinks =document.getElementById('navLinks');
+
+		function showMenu(){
+			navLinks.style.right ="0";
+		}
+
+		function hideMenu(){
+			navLinks.style.right ="-200px";
+		}
+
+	</script>
+</body>
+</html>
